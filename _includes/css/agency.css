@@ -103,6 +103,11 @@ h6 {
     outline:none;
 }
 
+/* Add small button for privacy policy*/
+.privacyModal {
+    text-align=left;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
