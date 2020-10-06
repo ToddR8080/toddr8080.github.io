@@ -108,6 +108,36 @@ h6 {
     text-align=left;
 }
 
+/* Add carousel*/
+.carousel-item {
+	height: 35vh;
+	min-height: 200px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*!
+ * RT 2019 07 04 - Add to support black text on carousel captions. 
+ */
+.carousel-caption-bl {
+	position: absolute;
+	right: 15%;
+	bottom: 20px;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #000;
+	text-align: center
+}
+
+
+
+
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
