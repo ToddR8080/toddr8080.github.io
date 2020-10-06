@@ -1,0 +1,46 @@
+
+/* Add small button for privacy policy*/
+.btn-privacy {
+    border-color: #{{ site.data.template.color.primary }};
+    /* text-transform: uppercase; */
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 50;
+    color: #000;
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline:none;
+}
+
+/* Add small button for privacy policy*/
+.privacyModal {
+    text-align=left;
+}
+
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url('/img/carousel/clouds.jpeg'); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image:  url('/img/carousel/aircraft-engine.jpeg');
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url('/img/carousel/clouds.jpeg');
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url('/img/carousel/airport-594208_1920.jpg');
+}
+
+					

@@ -90,54 +90,6 @@ h6 {
     background-color: #{{ site.data.template.color.primary }};
 }
 
-/* Add small button for privacy policy*/
-.btn-privacy {
-    border-color: #{{ site.data.template.color.primary }};
-    /* text-transform: uppercase; */
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 50;
-    color: #000;
-    background-color: Transparent;
-    border: none;
-    overflow: hidden;
-    outline:none;
-}
-
-/* Add small button for privacy policy*/
-.privacyModal {
-    text-align=left;
-}
-
-/* Add carousel*/
-.carousel-item {
-	height: 35vh;
-	min-height: 200px;
-	background: no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-/*!
- * RT 2019 07 04 - Add to support black text on carousel captions. 
- */
-.carousel-caption-bl {
-	position: absolute;
-	right: 15%;
-	bottom: 20px;
-	left: 15%;
-	z-index: 10;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: #000;
-	text-align: center
-}
-
-
-
-
-
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
