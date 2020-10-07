@@ -17,41 +17,8 @@
     text-align=left;
 }
 
-
 /********************************/
-/*       Slides backgrounds     */
-/********************************/
-.fade-carousel .slides .slide-1, 
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3,
-.fade-carousel .slides .slide-4 {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.fade-carousel .slides .slide-1 {
-  background-image: url('/img/carousel/clouds.jpeg'); 
-}
-.fade-carousel .slides .slide-2 {
-  background-image:  url('/img/carousel/aircraft-engine.jpeg');
-}
-.fade-carousel .slides .slide-3 {
-  background-image: url('/img/carousel/clouds.jpeg');
-}
-.fade-carousel .slides .slide-4 {
-  background-image: url('/img/carousel/airport-594208_1920.jpg');
-}
-
-
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
-/********************************/
-/*       Fade Bs-carousel       */
+/*       Fade carousel       */
 /********************************/
 .fade-carousel {
     position: relative;
@@ -113,6 +80,36 @@ Image credits: unsplash.com
          -o-transition: 2s all ease-in-out .1s; 
             transition: 2s all ease-in-out .1s;    
 }
+
+
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url('/img/carousel/clouds.jpeg'); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image:  url('/img/carousel/aircraft-engine.jpeg');
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url('/img/carousel/clouds.jpeg');
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url('/img/carousel/airport-594208_1920.jpg');
+}
+
+
+
 
 /********************************/
 /*            Overlay           */
