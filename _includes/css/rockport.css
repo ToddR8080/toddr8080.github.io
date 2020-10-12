@@ -12,6 +12,18 @@
     outline:none;
 }
 
+/* Custom button colour*/
+.btn.btn-contact,
+.btn.btn-contact:hover,
+.btn.btn-contact:focus {
+    color: #f5f5f5;
+    background-color: #395C82;
+    border-color: #395C82;
+    outline: none;
+    margin: 20px auto;
+}
+
+
 /* Add small button for privacy policy*/
 .privacyModal {
     text-align=left;
