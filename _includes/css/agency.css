@@ -763,7 +763,8 @@ footer {
     padding: 25px 0;
     text-align: center;
     /* Graduate the background */
-    background-image: linear-gradient(#6d94bf, #446e9b 50%, #3e648d);
+    /*background-image: linear-gradient(#6d94bf, #446e9b 50%, #3e648d);   */
+    background-image: linear-gradient(#395c82, #395c82, #395c82);
 }
 
 footer span.copyright {
