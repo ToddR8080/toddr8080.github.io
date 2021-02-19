@@ -55,19 +55,19 @@
 .quotebanner {
   border-radius: 30px;
   background: #{{ site.data.template.color.quad }};
-  color: #ffffff;
+  color: #000000;
   padding: 20px;
 }
 
 .quotebanner p a {
-  color: #ffffff;
+  color: #000000;
 }
 
 .quotebanner p a:hover,
 .quotebanner p a:focus,
 .quotebanner p a:active,
 .quotebanner p a.active {
-  color: #ffffff;
+  color: #000000;
 }
 
 
